@@ -60,3 +60,8 @@ function getVideosByMovieId(movieId, content) {
     const render = createVideoTemplate.bind({ content });
     requestMovies(url, render, handleGeneralError);
 }
+function getVideosByLists(movieId, content) {
+  const url = generateListUrl(`/movie/${movieId}/videos`);
+  const render = createVideoTemplate.bind({ content });
+  requestMovies(url, render, handleGeneralError);
+}

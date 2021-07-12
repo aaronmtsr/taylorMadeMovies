@@ -36,7 +36,7 @@ section .imageContainer {
   position: relative;
   min-height: 200px;
   width: 100%;
-  border: 1px solid lightgrey;
+  border: 1px solid rgb(0, 17, 255);
   padding: 20px;
 }
 
@@ -65,7 +65,7 @@ section .imageContainer {
   top: 20px;
   padding: 10px;
   /* width: 35px;; */
-  border: 1px solid lightgrey;
+  border: 2px solid lightgrey;
   border-radius: 45%;
   left: 20px;
 }
@@ -120,7 +120,7 @@ section .imageContainer {
   line-height: 1.5;
   outline: none;
   color: #495057;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: .25rem;
